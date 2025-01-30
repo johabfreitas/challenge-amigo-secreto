@@ -13,10 +13,22 @@ function adicionarAmigo() {
     }
 
     //Aqui adiciona o conteúdo do array a uma lista em HTML
-    entradaDeAmigos = document.getElementById('listaAmigos');
-    entradaDeAmigos.innerHTML = listaDeAmigos.join("<br>");
+    //entradaDeAmigos = document.getElementById('listaAmigos');
+    //entradaDeAmigos.innerHTML = listaDeAmigos.join("<br>");
+    atualizarListaDeAmigos();
 
-    //console.log(listaDeAmigos);
+}
+
+function atualizarListaDeAmigos(){
+    let listaExibicao = document.getElementById('listaAmigos');
+    listaExibicao.innerHTML = "";
+
+    listaDeAmigos.forEach(item => {
+        let li = document.createElement("li");
+        li.textContent = item;
+        listaExibicao.appendChild(li);
+    });
+
 }
 
 //Limpar o campo após a entrada
