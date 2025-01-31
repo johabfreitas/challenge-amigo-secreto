@@ -11,12 +11,12 @@ function adicionarAmigo() {
       listaDeAmigos.push(entradaDeAmigos);
       atualizarCampo();
     }
-
+    
+    atualizarListaDeAmigos();
+    
     //Aqui adiciona o conteúdo do array a uma lista em HTML
     //entradaDeAmigos = document.getElementById('listaAmigos');
     //entradaDeAmigos.innerHTML = listaDeAmigos.join("<br>");
-    atualizarListaDeAmigos();
-
 }
 
 /*
@@ -45,11 +45,19 @@ function atualizarListaDeAmigos(){
         li.textContent = item;
         listaExibicao.appendChild(li);
     });
-
 }
 
-function sortearAmigos(){
+/**
+ * Função sortearAmigo
+ * Math.random() gera um número entre 0 e 1, por exemplo 0.76.
+ * Multiplicamos pelo tamanho do array(listaDeAmigos.length),
+ * transformando em um número entre 0 e o último índice.
+ * Math.floor() arredonda para baixo para garantir que seja um índice válido.
+ */
+function sortearAmigo(){
+    let sorteado = listaDeAmigos[Math.floor(Math.random() * listaDeAmigos.length)];
 
+    console.log("Amigo escolhido", sorteado);
 }
 
 //Limpar o campo após a entrada
