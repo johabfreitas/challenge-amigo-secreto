@@ -1,8 +1,13 @@
 # Challenge Amigo Secreto
 Uma aplicação desenvolvida que permite aoa usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
+Para acessar a aplicação em produção [clique aqui](https://johabfreitas.github.io/challenge-amigo-secreto/).
 
-### Instruções
-O usuário deverá adiconar nomes e clicando no botão "Adicionar".
+## Sobre o projeto
+Na aplicação desenvolvida foi aplicada os conceitos de lógica de programação, array, funções, utilização do DOM(Document Object Model) para manipular os elementos da página web. 
+Foi o meu segundo projeto que trabalhei com a linguagem JavaScript, porém nesse projeto não tive muita dificuldade em desenvolver como no primeiro, isso se deu por nesse intervalo venho evoluíndo na programação, pois criei uma base muito boa estudando Kotlin, Java e Python. Aprendi também a trabalhar com o conceito dividir para conquistar, quebrar um problema em vários, e dessa forma solucionar o problema de um modo mais fácil.
+
+### Instruções de uso
+O usuário deverá adiconar nomes e clicando no botão "Adicionar", todos adicionados clicar no botão "Sortear amigo".
 <div style="display: flex;" aling="center">
 	<img src="img/apresentacao.gif" alt="Apresentacao" style="width:100%;">
 </div>
@@ -21,9 +26,9 @@ O usuário deverá adiconar nomes e clicando no botão "Adicionar".
 </div>
 
 ## Tecnologias utilizadas
-- JavaScript
-- HTML 5
-- CSS
+- Linguagem de programação JavaScript
+- Linguagem de Marcação de Hipertexto, HTML
+- Cascading Style Sheets, CSS
 
 ## Contribuição
 Este repositório foi criado para fins de estudos, com base nas aulas do Programa ONE - Oracle Next Education -  Iniciante em Programação em parceria com [Alura](https://cursos.alura.com.br/).
