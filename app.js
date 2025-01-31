@@ -36,8 +36,9 @@ function meuBotao(){
     });
 }
 
+
 function atualizarListaDeAmigos(){
-    let listaExibicao = document.getElementById('listaAmigos');
+    let listaExibicao = document.getElementById("listaAmigos");
     listaExibicao.innerHTML = "";
 
     listaDeAmigos.forEach(item => {
@@ -56,8 +57,11 @@ function atualizarListaDeAmigos(){
  */
 function sortearAmigo(){
     let sorteado = listaDeAmigos[Math.floor(Math.random() * listaDeAmigos.length)];
-
-    console.log("Amigo escolhido", sorteado);
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `O amigo secreto sorteado é: ${sorteado}`;
+    
+    document.getElementById("listaAmigos").innerHTML="";
+    //console.log("Amigo escolhido", sorteado);
 }
 
 //Limpar o campo após a entrada
