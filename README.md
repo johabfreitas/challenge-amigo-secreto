@@ -9,8 +9,11 @@ O usuário deverá adiconar nomes e clicando no botão "Adicionar".
 
 ### Telas
 <div style="display: flex;" aling="center">
-	<img src="img/tela1.png" alt="Tela 1" style="width: 50%;">
-	<img src="img/tela2.png" alt="Tela 2" style="width: 50%;">
+	<img src="img/tela1.png" alt="Tela 1" style="width: 100%;">
+</div>
+
+<div style="display: flex;" aling="center">
+	<img src="img/tela2.png" alt="Tela 2" style="width: 100%;">
 </div>
 
 <div style="display: flex;" aling="center">
