@@ -19,6 +19,18 @@ function adicionarAmigo() {
 
 }
 
+function meuBotao(){
+    document.querySelector('input').addEventListener("keydown", function(event){
+        if(event.key === "Enter"){
+            document.getElementById("botaoAdicionar").click();        
+        }
+    });
+
+    document.getElementById("botaoAdicionar").addEventListener("click", function(event){
+        console.log(event);
+    });
+}
+
 function atualizarListaDeAmigos(){
     let listaExibicao = document.getElementById('listaAmigos');
     listaExibicao.innerHTML = "";
@@ -28,6 +40,10 @@ function atualizarListaDeAmigos(){
         li.textContent = item;
         listaExibicao.appendChild(li);
     });
+
+}
+
+function sortearAmigos(){
 
 }
 
