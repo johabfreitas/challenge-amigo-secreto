@@ -20,7 +20,7 @@ O usuário deverá adiconar nomes e clicando no botão "Adicionar".
 	<img src="img/tela3.png" alt="Tela 3" style="width: 100%;">
 </div>
 
-## Ferramentas para desenvolvimento
+## Tecnologias utilizadas
 - JavaScript
 - HTML 5
 - CSS
