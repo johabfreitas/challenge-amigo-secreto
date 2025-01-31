@@ -19,6 +19,11 @@ function adicionarAmigo() {
 
 }
 
+/*
+Utilizei uma função anônima que recebe um objeto de evento como parâmetro.
+Esse objeto contém informações sobre o evento que ocorreu, 
+como qual tecla foi pressionada, qual botão foi clicado, etc. 
+*/
 function meuBotao(){
     document.querySelector('input').addEventListener("keydown", function(event){
         if(event.key === "Enter"){
